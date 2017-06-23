@@ -1,0 +1,6 @@
+Listing.create({address:'',listing_type:'',title:'',description:'',price:1,neighborhood_id:1,host_id:1})
+City.create({name:'New York'})
+Neighborhood.create({name:'k',city_id:1})
+Reservation.create({checkin:'10-12-12',checkout:'10-13-12',listing_id:1,guest_id:1})
+Review.create({description:'',rating:1,guest_id:1,reservation_id:1})
+User.create({name:'JJ'})
